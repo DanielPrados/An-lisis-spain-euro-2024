@@ -218,7 +218,7 @@ En este caso, el análisis se centra en el recorrido de **España durante la Eur
 
 ## 📈 Algunas visualizaciones
 
-- Pases hacia delante España vs. Croacia:
+- Distribución espacial de pases progresivos España vs. Croacia:
 
   <img width="672" height="480" alt="image" src="https://github.com/user-attachments/assets/3b476e8a-0d13-4cea-9eed-8eb88d701659" />
 
