@@ -32,6 +32,26 @@ Entre otros aspectos, se analiza:
 
 ---
 
+## 📊 Fuente de datos
+
+Los datos utilizados en este proyecto proceden de **StatsBomb** y corresponden a los eventos registrados durante los partidos disputados por España en la Eurocopa 2024.
+
+El conjunto de datos contiene información detallada sobre las acciones desarrolladas durante los encuentros, incluyendo:
+
+* Pases y su precisión.
+* Tiros y goles.
+* Expected Goals (xG).
+* Regates.
+* Duelos.
+* Despejes.
+* Localización espacial de las acciones.
+* Información temporal de los eventos.
+
+A partir de estos datos se realizaron los procesos de limpieza, transformación y análisis necesarios para construir las visualizaciones y animaciones incluidas en el proyecto.
+
+> **Fuente:** StatsBomb — datos de eventos de la Eurocopa 2024.
+
+
 ## 🛠️ Tecnologías utilizadas
 
 El proyecto ha sido desarrollado principalmente utilizando:
