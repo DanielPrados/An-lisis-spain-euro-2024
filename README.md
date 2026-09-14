@@ -1,4 +1,4 @@
-# 🇪🇸 El dominio de "La Roja" en la Eurocopa 2024
+# 🔴 El dominio de "La Roja" en la Eurocopa 2024
 
 ### Del campo a los gráficos
 
@@ -27,7 +27,7 @@ Entre otros aspectos, se analiza:
 * 🥅 Distribución espacial de los disparos.
 * 🤝 Duelos ganados.
 * 🛡️ Despejes.
-* 🇪🇸 Comparación entre España y sus rivales.
+* 🔴 Comparación entre España y sus rivales.
 * 🎞️ Visualizaciones animadas para estudiar la evolución temporal de las acciones.
 
 ---
