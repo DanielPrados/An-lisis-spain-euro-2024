@@ -222,7 +222,8 @@ En este caso, el análisis se centra en el recorrido de **España durante la Eur
 
   <img width="672" height="480" alt="image" src="https://github.com/user-attachments/assets/3b476e8a-0d13-4cea-9eed-8eb88d701659" />
 
-- xG acumulado por minuto en semifinal y final: <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/ef5baf68-dc65-41b1-a7ec-dc6ad619c06f" />
+- Mapa de tiros de la final por minuto y según xG: <img width="800" height="540" alt="mapa_tiros_minuto_a_minuto" src="https://github.com/user-attachments/assets/33a891c1-bfc3-4136-98fa-d1c70cd33254" />
+
 
 
 
