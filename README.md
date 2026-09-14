@@ -216,3 +216,8 @@ El objetivo principal del proyecto es mostrar cómo las técnicas de **análisis
 
 En este caso, el análisis se centra en el recorrido de **España durante la Eurocopa 2024**, utilizando los datos para explorar cómo se desarrolló su juego y cómo se comportó frente a sus rivales.
 
+## 📈 Algunas visualizaciones
+
+- Gol de Lamine Yamal <img width="950" height="620" alt="gol_lamine_yamal" src="https://github.com/user-attachments/assets/92487496-8121-452f-b7b8-68a9573a16a7" />
+
+
