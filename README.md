@@ -34,159 +34,165 @@ Entre otros aspectos, se analiza:
 
 ## 🛠️ Tecnologías utilizadas
 
-El proyecto ha sido desarrollado principalmente con **R**, utilizando:
+El proyecto ha sido desarrollado principalmente utilizando:
 
-* **R Markdown** — elaboración del informe y documentación del análisis.
-* **ggplot2** — creación y personalización de visualizaciones.
-* **gganimate** — generación de visualizaciones animadas.
-* **ggsoccer** — representación de acciones sobre un campo de fútbol.
-* **dplyr** — transformación y manipulación de datos.
-* **tidyr** — organización y transformación de estructuras de datos.
+* **R**
+* **R Markdown**
+* **ggplot2** — visualización de datos.
+* **gganimate** — visualizaciones y animaciones dinámicas.
+* **ggsoccer** — representación de acciones sobre el terreno de juego.
+* **dplyr** — manipulación y transformación de datos.
+* **tidyr** — organización y transformación de datos.
 * **readr** — importación de datos.
-* **ggrepel** — colocación de etiquetas evitando solapamientos.
-* **gifski** — renderizado de animaciones en formato GIF.
+* **ggrepel** — posicionamiento de etiquetas en gráficos.
+* **gifski** — generación de archivos GIF.
 
 ---
 
 ## 📊 Análisis realizado
 
-### Fundamentos de visualización con `ggplot2`
-
-El proyecto comienza introduciendo los principales conceptos de la *Grammar of Graphics*, mostrando progresivamente el uso de:
-
-* `ggplot()`
-* `aes()`
-* `geom_*`
-* `facet_*`
-* `scale_*`
-* `theme_*`
-
-A partir de estos elementos se construyen visualizaciones cada vez más elaboradas.
+El proyecto aborda diferentes dimensiones del rendimiento de España durante la Eurocopa 2024.
 
 ### ⚽ Pases
 
-Se analiza el volumen y precisión de los pases, incluyendo una estandarización por 90 minutos para facilitar la comparación entre jugadores.
+Se analiza la cantidad y precisión de los pases realizados por los jugadores, incluyendo su estandarización en función de los minutos disputados para facilitar las comparaciones entre jugadores.
 
-También se estudia espacialmente la distribución de los pases de jugadores como **Lamine Yamal**, representando sus trayectorias directamente sobre el campo.
+También se estudia la **distribución espacial de los pases** sobre el terreno de juego.
 
-### 🎯 Goles esperados (xG)
+### 🎯 Tiros y goles esperados
 
-Se estudia la generación de ocasiones mediante la métrica **xG**, tanto a nivel individual como a través de su evolución temporal durante diferentes partidos de España.
+Se estudian los disparos realizados durante el torneo y su localización en el campo.
 
-La evolución acumulada del xG permite comparar el desarrollo ofensivo de los equipos a lo largo de cada encuentro.
+Además, se utiliza la métrica **xG (Expected Goals)** para analizar la calidad de las ocasiones generadas y su evolución a lo largo de los partidos.
 
 ### 🏃 Regates
 
-Se analiza el número de regates completados por 90 minutos, identificando valores extremos mediante diagramas de caja y destacando determinados jugadores mediante etiquetas.
+Se analiza la distribución de los regates realizados y completados por los jugadores, así como su localización sobre el terreno de juego.
+
+### 🤝 Duelos
+
+Se estudian los duelos disputados y ganados por los jugadores españoles, utilizando representaciones espaciales para identificar las zonas del campo donde se producen con mayor frecuencia.
+
+### 🛡️ Despejes
+
+Se analiza la distribución de los despejes realizados por España durante el torneo y las zonas del campo en las que se producen.
 
 ### 🗺️ Análisis espacial
 
-Mediante `ggsoccer` se representan diferentes acciones directamente sobre un campo de fútbol, permitiendo estudiar dónde se concentran los pases, disparos y otras acciones.
+Una parte importante del proyecto consiste en representar las acciones directamente sobre el terreno de juego.
 
-También se emplean mapas de densidad bidimensional para analizar la distribución espacial de determinadas acciones durante los partidos.
+Se utilizan diferentes mapas y representaciones espaciales para identificar:
 
-### 🇪🇸 España frente a sus rivales
+* Zonas de mayor concentración de acciones.
+* Distribución de pases.
+* Localización de disparos.
+* Distribución de regates.
+* Localización de duelos.
+* Zonas de realización de despejes.
 
-Se comparan diferentes métricas entre España y sus rivales durante la competición, incluyendo:
+### 🔴 Comparación con los rivales
 
-* Pases completados.
-* Regates completados.
-* Duelos ganados.
-* Despejes.
-* Distribución espacial de los pases.
-* Generación de ocasiones.
-
-El análisis permite estudiar diferentes dimensiones del rendimiento colectivo de España y contextualizar sus resultados durante la competición.
+Los datos de España se comparan con los de sus rivales a lo largo de la competición para estudiar diferentes aspectos del rendimiento y del comportamiento de los equipos.
 
 ---
 
 ## 🎞️ Visualizaciones animadas
 
-Una de las partes del proyecto consiste en la utilización de **`gganimate`** para representar la evolución temporal de las acciones futbolísticas.
+El proyecto incorpora **visualizaciones animadas mediante `gganimate`**, permitiendo representar de forma dinámica la evolución de determinadas acciones sobre el terreno de juego.
 
-Las animaciones permiten incorporar una dimensión temporal que no puede observarse de la misma manera en una representación estática, facilitando el estudio de la progresión de los eventos sobre el terreno de juego.
+Entre ellas se encuentra una recreación animada del **gol de Mikel Oyarzabal frente a Inglaterra en la final de la Eurocopa 2024**, representando los movimientos de los jugadores, la trayectoria del balón y la finalización de la jugada.
 
-> Las visualizaciones animadas fueron desarrolladas por Daniel Prados Serrano.
+Estas visualizaciones permiten complementar los análisis estáticos y facilitar la interpretación de determinadas secuencias de juego.
 
 ---
 
 ## 📁 Estructura del repositorio
 
 ```text
-euro-2024-spain-analysis-r/
+analisis-spain-euro-2024/
 │
 ├── README.md
+│
 ├── report/
 │   ├── Trabajo_Final_EC.Rmd
 │   └── Trabajo_Final_EC.html
 │
-├── data/
-│   ├── pases_espana.csv
-│   ├── minutos_jugadores_espana.csv
-│   ├── tiros_espana.csv
-│   ├── regates_espana.csv
-│   ├── duelos_espana.csv
-│   └── despejes_espana.csv
+└── data/
+    ├── pases_espana.csv
+    ├── minutos_jugadores_espana.csv
+    ├── tiros_espana.csv
+    ├── regates_espana.csv
+    ├── duelos_espana.csv
+    └── despejes_espana.csv
 ```
 
 ---
 
 ## ▶️ Reproducción
 
-Para reproducir el análisis es necesario disponer de **R** y de los paquetes utilizados en el proyecto.
+Para reproducir el análisis:
 
-Los datos deben encontrarse en la carpeta `data/` y las rutas utilizadas en los scripts deben ser relativas al repositorio.
+1. Clonar o descargar el repositorio.
+2. Abrir el archivo `Trabajo_Final_EC.Rmd` situado en la carpeta `report/`.
+3. Instalar las librerías necesarias si no están disponibles.
+4. Ejecutar el documento mediante **Knit** en RStudio.
 
-Una vez instaladas las dependencias, el informe puede generarse ejecutando el archivo:
-
-```text
-report/Trabajo_Final_EC.Rmd
-```
-
-desde RStudio mediante la opción **Knit**.
+El documento R Markdown contiene tanto el código utilizado para el análisis como las visualizaciones generadas.
 
 ---
 
 ## 👥 Autores
 
-Proyecto académico desarrollado de forma colaborativa por:
+Proyecto desarrollado conjuntamente por:
 
-* Ricard Castillo Moustakim
-* Elena Fernández Caro
-* Carlos Jiménez Ortega
-* Daniel Prados Serrano
-* Lourdes María Vargas Gamez
-* Mateo Vega Pueyo
+* **Ricard Castillo Moustakim**
+* **Elena Fernández Caro**
+* **Carlos Jiménez Ortega**
+* **Daniel Prados Serrano**
+* **Lourdes María Vargas Gamez**
+* **Mateo Vega Pueyo**
 
-### Contribución personal
+---
 
-**Daniel Prados Serrano**
+## 👤 Contribución personal
 
-* Revisión y supervisión general de gran parte del proyecto.
-* Desarrollo de una parte del análisis y las visualizaciones.
-* Desarrollo de las visualizaciones animadas mediante `gganimate`.
-* Revisión y refinamiento del código y de las representaciones gráficas.
+Mi participación en el proyecto incluyó:
 
-> La contribución indicada refleja únicamente las tareas desarrolladas dentro del proyecto y no implica que el trabajo completo sea individual.
+* Participación en el desarrollo y revisión de gran parte del análisis.
+* Desarrollo de una parte significativa de las visualizaciones y del código del proyecto.
+* Desarrollo íntegro de las **visualizaciones animadas mediante `gganimate`**.
+* Revisión, depuración y refinamiento del código y de las representaciones gráficas.
+* Revisión general del informe y de los resultados obtenidos.
 
 ---
 
 ## 🎓 Contexto académico
 
-Este repositorio contiene un **proyecto académico grupal** realizado como parte de una actividad de análisis y visualización de datos mediante R y R Markdown.
+Este proyecto fue desarrollado como parte de un **trabajo académico de análisis y visualización de datos**, utilizando herramientas del ecosistema de R para explorar y representar datos relacionados con el fútbol.
 
-El proyecto se publica con fines **educativos y de portfolio**, manteniendo la autoría de todos los integrantes del grupo.
+El proyecto combina programación, análisis de datos, estadística y visualización para estudiar el rendimiento de la Selección Española durante la **UEFA Euro 2024**.
 
 ---
 
 ## 📄 Documentación
 
-El análisis completo se encuentra disponible en el informe desarrollado en **R Markdown**, donde se explican tanto los conceptos utilizados como el código y la interpretación de las visualizaciones.
+El análisis completo, junto con el código utilizado para generar las visualizaciones, se encuentra disponible en:
+
+```text
+report/Trabajo_Final_EC.Rmd
+```
+
+También se incluye una versión HTML renderizada del informe:
+
+```text
+report/Trabajo_Final_EC.html
+```
 
 ---
 
-## 🚀 Objetivo del proyecto
+## 🎯 Objetivo
 
-El proyecto busca mostrar cómo los datos de eventos futbolísticos pueden transformarse en **visualizaciones útiles para analizar el rendimiento de un equipo**, pasando de datos estructurados a representaciones estadísticas, espaciales y temporales.
+El objetivo principal del proyecto es mostrar cómo las técnicas de **análisis y visualización de datos pueden utilizarse para estudiar el rendimiento deportivo**, transformando datos de eventos de fútbol en representaciones visuales que permitan identificar patrones, tendencias y comportamientos sobre el terreno de juego.
 
-Más allá de las estadísticas individuales, el objetivo final es utilizar los datos para obtener una visión global del comportamiento de España durante la **Eurocopa 2024**.
+En este caso, el análisis se centra en el recorrido de **España durante la Eurocopa 2024**, utilizando los datos para explorar cómo se desarrolló su juego y cómo se comportó frente a sus rivales.
+
