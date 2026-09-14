@@ -34,25 +34,29 @@ Entre otros aspectos, se analiza:
 
 ## 📈 Algunas visualizaciones
 
-### Distribución espacial de pases progresivos España vs. Croacia
-
-<img width="672" height="480" alt="Distribución espacial de pases progresivos España vs. Croacia" src="..." />
-
-### Mapa de tiros de la final por minuto y según xG
-
-<img width="800" height="540" alt="Mapa de tiros de la final por minuto y xG" src="..." />
-
 ### Recreación del gol de Lamine Yamal vs. Francia
 
-
 <img width="950" height="620" alt="Recreación del gol de Lamine Yamal" src="..." />
+
+### Recreación del gol de Oyarzabal vs. Inglaterra
+
+<img width="950" height="620" alt="gol_oyarzabal" src="https://github.com/user-attachments/assets/d0b0d065-bde6-4b4c-b87e-41ad1f1ab12a" />
+
+### Distribución espacial de pases España vs. Francia por minuto
+
+<img width="800" height="500" alt="mapa_calor_fijo" src="https://github.com/user-attachments/assets/020f88b0-9e17-442c-baa2-53a98e6ebada" />
+
+### Scatter de pases de múltiples partidos
+
+<img width="672" height="480" alt="image" src="https://github.com/user-attachments/assets/0d26fd2d-4202-449f-8490-1176fe9f2162" />
+
 
 --- 
 
 
 ## 📊 Fuente de datos
 
-Los datos utilizados en este proyecto proceden de **StatsBomb** y corresponden a los eventos registrados durante los partidos disputados por España en la Eurocopa 2024.
+Los datos utilizados en este proyecto proceden de **StatsBomb Open Data** y corresponden a los eventos registrados durante los partidos disputados por España en la Eurocopa 2024.
 
 El conjunto de datos contiene información detallada sobre las acciones desarrolladas durante los encuentros, incluyendo:
 
@@ -67,7 +71,7 @@ El conjunto de datos contiene información detallada sobre las acciones desarrol
 
 A partir de estos datos se realizaron los procesos de limpieza, transformación y análisis necesarios para construir las visualizaciones y animaciones incluidas en el proyecto.
 
-> **Fuente:** StatsBomb — datos de eventos de la Eurocopa 2024.
+> **Fuente:** StatsBomb Open Data — datos de eventos de la Eurocopa 2024.
 
 
 ## 🛠️ Tecnologías utilizadas
@@ -161,7 +165,8 @@ analisis-spain-euro-2024/
     ├── tiros_espana.csv
     ├── regates_espana.csv
     ├── duelos_espana.csv
-    └── despejes_espana.csv
+    ├── despejes_espana.csv
+    └── duracion_partidos_espana.csv
 ```
 
 ---
