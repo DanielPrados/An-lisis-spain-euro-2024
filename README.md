@@ -36,7 +36,8 @@ Entre otros aspectos, se analiza:
 
 ### Recreación del gol de Lamine Yamal vs. Francia
 
-<img width="950" height="620" alt="Recreación del gol de Lamine Yamal" src="..." />
+<img width="950" height="620" alt="gol_lamine_yamal" src="https://github.com/user-attachments/assets/12ae9cad-351d-4937-a098-5ca32b8a9483" />
+
 
 ### Recreación del gol de Oyarzabal vs. Inglaterra
 
