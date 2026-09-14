@@ -217,7 +217,10 @@ El objetivo principal del proyecto es mostrar cómo las técnicas de **análisis
 En este caso, el análisis se centra en el recorrido de **España durante la Eurocopa 2024**, utilizando los datos para explorar cómo se desarrolló su juego y cómo se comportó frente a sus rivales.
 
 ## 📈 Algunas visualizaciones
+- Pases hacia delante España vs. Croacia: <img width="672" height="480" alt="image" src="https://github.com/user-attachments/assets/3b476e8a-0d13-4cea-9eed-8eb88d701659" />
 
-- Gol de Lamine Yamal <img width="950" height="620" alt="gol_lamine_yamal" src="https://github.com/user-attachments/assets/92487496-8121-452f-b7b8-68a9573a16a7" />
+- xG acumulado por minuto en semifinal y final: <img width="850" height="450" alt="xg_espana_euro2024" src="https://github.com/user-attachments/assets/ff51a47b-881d-49df-95f8-15d829a4d279" />
+
+- Gol de Lamine Yamal vs. Francia: <img width="950" height="620" alt="gol_lamine_yamal" src="https://github.com/user-attachments/assets/92487496-8121-452f-b7b8-68a9573a16a7" />
 
 
