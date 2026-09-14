@@ -222,7 +222,7 @@ En este caso, el análisis se centra en el recorrido de **España durante la Eur
 
   <img width="672" height="480" alt="image" src="https://github.com/user-attachments/assets/3b476e8a-0d13-4cea-9eed-8eb88d701659" />
 
-- xG acumulado por minuto en semifinal y final: <img width="850" height="450" alt="xg_espana_euro2024" src="https://github.com/user-attachments/assets/7e82a8c8-d693-451f-af23-3c77ce55d2c0" />
+- xG acumulado por minuto en semifinal y final:
 
 
 
