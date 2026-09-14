@@ -216,6 +216,8 @@ El objetivo principal del proyecto es mostrar cómo las técnicas de **análisis
 
 En este caso, el análisis se centra en el recorrido de **España durante la Eurocopa 2024**, utilizando los datos para explorar cómo se desarrolló su juego y cómo se comportó frente a sus rivales.
 
+--- 
+
 ## 📈 Algunas visualizaciones
 
 - Distribución espacial de pases progresivos España vs. Croacia:
