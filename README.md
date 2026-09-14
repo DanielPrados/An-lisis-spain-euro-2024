@@ -32,6 +32,24 @@ Entre otros aspectos, se analiza:
 
 ---
 
+## 📈 Algunas visualizaciones
+
+### Distribución espacial de pases progresivos España vs. Croacia
+
+<img width="672" height="480" alt="Distribución espacial de pases progresivos España vs. Croacia" src="..." />
+
+### Mapa de tiros de la final por minuto y según xG
+
+<img width="800" height="540" alt="Mapa de tiros de la final por minuto y xG" src="..." />
+
+### Recreación del gol de Lamine Yamal vs. Francia
+
+
+<img width="950" height="620" alt="Recreación del gol de Lamine Yamal" src="..." />
+
+--- 
+
+
 ## 📊 Fuente de datos
 
 Los datos utilizados en este proyecto proceden de **StatsBomb** y corresponden a los eventos registrados durante los partidos disputados por España en la Eurocopa 2024.
@@ -178,9 +196,10 @@ Proyecto desarrollado conjuntamente por:
 
 Mi participación en el proyecto incluyó:
 
-* Participación en el desarrollo y revisión de gran parte del análisis.
-* Desarrollo de una parte significativa de las visualizaciones y del código del proyecto.
-* Desarrollo íntegro de las **visualizaciones animadas mediante `gganimate`**.
+* Participación en el análisis de los gráficos y lenguaje futbolístico.
+* Desarrollo de las gráficas del punto 3.
+* Desarrollo íntegro de las **visualizaciones animadas de ambos goles mediante `gganimate`**.
+* Participación en el resto de **visualizaciones animadas**.
 * Revisión, depuración y refinamiento del código y de las representaciones gráficas.
 * Revisión general del informe y de los resultados obtenidos.
 
@@ -215,21 +234,3 @@ report/Trabajo_Final_EC.html
 El objetivo principal del proyecto es mostrar cómo las técnicas de **análisis y visualización de datos pueden utilizarse para estudiar el rendimiento deportivo**, transformando datos de eventos de fútbol en representaciones visuales que permitan identificar patrones, tendencias y comportamientos sobre el terreno de juego.
 
 En este caso, el análisis se centra en el recorrido de **España durante la Eurocopa 2024**, utilizando los datos para explorar cómo se desarrolló su juego y cómo se comportó frente a sus rivales.
-
---- 
-
-## 📈 Algunas visualizaciones
-
-- Distribución espacial de pases progresivos España vs. Croacia:
-
-  <img width="672" height="480" alt="image" src="https://github.com/user-attachments/assets/3b476e8a-0d13-4cea-9eed-8eb88d701659" />
-
-- Mapa de tiros de la final por minuto y según xG: <img width="800" height="540" alt="mapa_tiros_minuto_a_minuto" src="https://github.com/user-attachments/assets/33a891c1-bfc3-4136-98fa-d1c70cd33254" />
-
-
-
-
-
-- Gol de Lamine Yamal vs. Francia: <img width="950" height="620" alt="gol_lamine_yamal" src="https://github.com/user-attachments/assets/92487496-8121-452f-b7b8-68a9573a16a7" />
-
-
